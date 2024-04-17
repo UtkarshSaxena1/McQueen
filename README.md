@@ -41,7 +41,7 @@ gamma_bop : BOPs regularization weight
 ## Running the code
 1. Setup the environment
 ```
-conda env create -f environment.yml"
+conda env create -f environment.yml
 ```
 2. Add location of imagenet data directory in ./examples/classifier_imagenet/prototxt/resnet_multigpu.prototxt
 3. Run the code
