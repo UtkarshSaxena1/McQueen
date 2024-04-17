@@ -53,7 +53,7 @@ If you use this code, please cite the following paper:
 @article{saxena2023mcqueen,
   title={McQueen: Mixed Precision Quantization of Early Exit Networks},
   author={Saxena, Utkarsh and Roy, Kaushik},
-  booktitle = {British Machine Vision Conference, BMVC 2023},
+  booktitle = {British Machine Vision Conference, BMVC },
   year={2023}
 }
 ```
