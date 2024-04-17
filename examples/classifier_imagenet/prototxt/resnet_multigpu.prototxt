@@ -1,0 +1,41 @@
+arch: "resnet18"
+log_name: 'Run1'
+debug: false
+lr_stage1: 0.001
+lr_stage2: 0.001
+lr_stage3: 0.001
+lr_stage4: 0.0001
+epoch_stage1: 30
+epoch_stage2: 60
+epoch_stage3: 90
+epoch_stage4: 1
+batch_size: 512
+workers: 16
+print_freq: 1000
+evaluate: false
+pretrained: true
+model_source: Local
+start_epoch : 0
+seed: 1
+gpu_id: ANY
+data: *** Add imagenet directory ***
+multi_gpu {
+  world_size: 1
+  rank: 0
+  dist_url: "tcp://127.0.0.1:23457"
+  dist_backend: "nccl"
+  multiprocessing_distributed: true
+}
+nbits_w: 8
+nbits_a: 8
+target_bops : 0
+gamma_bop : 0.035
+
+
+lr_scheduler: CosineAnnealingLR
+
+optimizer: SGD
+sgd {
+  weight_decay: 9.999999747378752e-05
+  momentum: 0.8999999761581421
+}
