@@ -42,3 +42,14 @@ gamma_bop : BOPs regularization weight
 Setup the environment "conda env create -f environment.yml"
 Add location of imagenet data directory in ./examples/classifier_imagenet/prototxt/resnet_multigpu.prototxt
 Run the code "run_imagenet.sh"
+
+## References
+```
+@article{saxena2023mcqueen,
+  title={McQueen: Mixed Precision Quantization of Early Exit Networks},
+  author={Saxena, Utkarsh and Roy, Kaushik},
+  booktitle = {British Machine Vision Conference, BMVC 2023},
+  year={2023}
+}
+```
+```
