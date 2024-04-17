@@ -48,6 +48,7 @@ conda env create -f environment.yml
 run_imagenet.sh
 ```
 ## References
+If you use this code, please cite the following paper:
 ```
 @article{saxena2023mcqueen,
   title={McQueen: Mixed Precision Quantization of Early Exit Networks},
